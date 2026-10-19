@@ -10,7 +10,8 @@ A skill is a folder with a `SKILL.md` file (and, optionally, templates, checklis
 |---|---|---|
 | [`clean-code`](clean-code/SKILL.md) | Audits code, especially AI-written code: bugs, injection, typos, infinite loops, API safety, credentials and HTTPS, API call volume, lazy loading, page load | Found 6 bugs in a Gemini tic-tac-toe game, then fixed them |
 | [`mini-web-app`](mini-web-app/) | Builds small single-file web tools in one house style: one `index.html`, offline, mobile-first, light/dark mode, saves in the browser, Polish zł and date formats | The same expense-tracker prompt, before and after |
-| [`ui-bootstrap-guidelines`](ui-bootstrap-guidelines/SKILL.md) | Bootstrap 5 + React UI rules with 5 themes (Classic Light, Material 3, iOS 26 Liquid Glass, Dark Pro, Windows Fluent) | Two skills working together |
+| [`ui-bootstrap-guidelines`](ui-bootstrap-guidelines/SKILL.md) | Bootstrap 5 + React UI rules with 5 themes (Classic Light, Material 3, iOS 26 Liquid Glass, Dark Pro, Windows Fluent) | Two skills working together (reads my-theme first) |
+| [`my-theme`](my-theme/SKILL.md) | Saves your personal UI theme (Classic Light here) so ui-bootstrap-guidelines uses it without asking. Say "change my theme" to switch | Two skills working together |
 | [`meeting-action-items`](meeting-action-items/SKILL.md) | Turns messy meeting notes into an action table (owner, due, status, source quote), open questions and a follow-up message | Bonus |
 
 `mini-web-app` uses Polish defaults (zł, `DD.MM.YYYY`) and the One Man AI colours. Change the tokens in its `SKILL.md` and `assets/template.html` to make it yours.

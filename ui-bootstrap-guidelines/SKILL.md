@@ -36,7 +36,7 @@ E) 🪟 Windows Fluent      — Acrylic/Mica blur, Microsoft Fluent Design, Sego
 ```
 
 Once theme is resolved (from `My-Theme` or picker), apply ONLY that theme's variables and
-patterns from Section 3. Full specs for all themes → `My-Theme/references/all-themes.md`
+patterns from Section 3.
 
 ---
 
@@ -787,6 +787,3 @@ Utils:    rounded-3, shadow-sm, border, border-light, overflow-hidden
 Accordion: accordion, accordion-item, accordion-header, accordion-button, accordion-collapse
 Dark mode: data-bs-theme="dark" on <html>
 ```
-
-See `references/color-palette.md` for extended palette variants per theme.
-See `references/component-examples.md` for ready-to-use React component snippets.
